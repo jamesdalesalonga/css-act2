@@ -113,3 +113,37 @@ a {
 a:hover {
     color :darkorange
 }
+
+#services {
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+#services h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding-left: 25px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 170px;
+    margin-right: 50px;
+}
+li{
+    margin: 15px;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100px;
+    background-color: white;
+    padding: 30px;
+}
+li:nth-child(1){
+    background-color: orangered;
+}
+li:hover{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
